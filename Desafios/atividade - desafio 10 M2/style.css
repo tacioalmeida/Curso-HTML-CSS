@@ -1,0 +1,115 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'idroid';
+    src: url(fontes/idroid.otf) format(otf);
+}
+
+body {
+    margin: 0;
+    background-color: #84E1AD;
+    text-align: justify;
+}
+
+/* Header */
+
+header {
+    padding: 30px;
+    background-image: linear-gradient(to top, #195B38, #3AD07D);
+    text-align: center;
+    color: white;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.349);
+}
+
+nav {
+    margin: 20px 0px -20px -20px;
+    text-align: left;
+}
+
+nav > a {
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+nav > a:hover {
+    background-color: #3AD07D;
+    color: #195B38;
+    border-radius: 5px 5px;
+}
+
+/* Main */
+
+main {
+    background-color: white;
+    padding: 10px;
+    margin: 0px 200px;
+    border-radius: 0px 0px 15px 15px;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.349);
+}
+
+/* Section*/
+
+section {
+    padding: 0px 20px;
+}
+
+/* Section História */
+
+section > h1{
+    color: #195B38;
+    font-size: 2em;
+}
+
+section > h2 {
+    background-image: linear-gradient(to right, #8bcca49f, #e8fff352);
+    color: #195B38;
+    text-align: justify;
+    padding-left: 10px;
+}
+
+section > a {
+    background-color: #40e78b;
+    color: #195B38;
+    text-decoration: none;
+}
+
+p > a {
+    text-decoration: none;
+    color: #195B38;
+    background-color: #84E1AD;
+}
+
+.fotos {
+    text-align: center;
+}
+
+img {
+    width: 100%;
+}
+
+/* Section Video*/
+
+#video {
+    background-color: #13442a;
+    text-align: center;
+}
+
+/* Section Extra */
+
+
+
+.titulo {
+    background-color: #3AD07D;
+    padding-left: 10px;
+}
+
+/* Footer */
+
+footer {
+    margin: 0px;
+    background-color: #195B38;
+    color: white;
+    text-align: center;
+}
